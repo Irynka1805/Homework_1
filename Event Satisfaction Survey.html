@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="Event Satisfaction Survey.css">
+	<title>Survey</title>
+</head>
+<body max-width="960px">
+	<hr color="red" width="auto">
+	<div class="container">
+    <h1>Event Satisfaction Survey</h1>
+    <p>Please take a few moments to complete this survey</p>
+    <hr>
+<form name="question" method="post" action="input1.php">
+	<p><b>Have you attended this event before?</b><Br>
+		<input type="radio" name="answer" id="answerYes" value="yes">
+    <label for="answerYes">Yes</label><br>
+		<input type="radio" name="answer" id="answerNo" value="no">
+    <label for="answerNo">No</label><Br>
+	</p>
+</form>
+<table cols="6">
+	<p><b>Overall satisfaction</b></p>
+   <tr> 
+	<td class="empty-cell">&nbsp;</td>
+    <td class="col1">Very satisfied</td>
+    <td class="col1">Satisfied</td>
+    <td class="col1">Neutral</td>
+    <td class="col1">Unsatisfied</td>
+    <td class="col1">Very unsatisfied</td>
+   </tr>
+   <tr> 
+    <td class="col1">Overall satisfaction</td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+   </tr>
+   <tr>
+    <td class="col1">Location</td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+   <tr>
+    <td class="col1">Content</td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+   </tr>
+   <tr>
+    <td class="col1">Price</td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+   </tr>
+   <tr>
+    <td class="col1">Speakers</td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+   </tr>
+   <tr>
+    <td class="col1">Organization</td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+    <td align="center"><input type="radio"></td>
+   </tr>
+</table>
+<form action="textarea1.php" method="post">
+	<p><b>How can we improve this event?</b></p>
+	<p><textarea rows="5" cols="50" name="text"></textarea></p>
+	<p><input type="submit" value="Submit"></p>
+</form>
+</div>
+</body>
+</html>

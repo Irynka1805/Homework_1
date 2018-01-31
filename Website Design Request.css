@@ -1,0 +1,25 @@
+div.form-all {width: 690px;}
+label.form-sub-label {display: block;
+font-size: 0.786em; margin-top: 3px;}
+span.form-sub-label-container {display: inline-block;vertical-align: top;margin-right: 5px;}
+.form-line {padding: 24px 0;}
+.form-section {list-style: none;list-style-position: outside;}
+.form-input {display: inline-block;}
+.form-label {display: inline-block;
+    float: left;
+    text-align: left;width: 141px;}
+.form-checkbox-item {clear:both;display: block;width: 100px;margin-bottom: 6px;}
+div.form-single-column {display: inline-block;text-align: left;}
+h1 {margin-bottom: 3px;
+padding-top: 24px}
+#subheader {padding-bottom: 24px;}
+#name {height: 19px;
+width: 100px;}
+#surname {height: 19px;
+width: 135px;}
+#email {height: 19px; width: 250px;}
+#input_area {height: 19px; width: 51px;}
+#phone {height: 19px; width: 86px;}
+#company {height: 19px;width: 170px;}
+#type-of-business {height: 24px;}
+#type-of-website {height: 24px;}
